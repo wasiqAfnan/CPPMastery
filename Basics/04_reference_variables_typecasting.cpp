@@ -3,22 +3,11 @@
 using namespace std;
 
 int main(){
-    // Data Types
-    // int a=5;
-    // float b=2.5;
-    // char c='a';
-    // bool t=true;
-
-    // cout<<a<<endl;
-    // cout<<b<<endl;
-    // cout<<c<<endl;
-    // cout<<t<<endl;
-
     // ***** Type casting *****
-
-    float a=25.25;
+    // Type casting refers to changing the dtataype of a variable
+    float a=25.25; // a declared as float
     cout<<a<<endl;
-    cout<<int(a)<<endl;
+    cout<<int(a)<<endl; // changing datatype of a from float to int
 
     // ***** Reference Variable *****
 
