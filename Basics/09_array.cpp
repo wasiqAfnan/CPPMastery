@@ -13,6 +13,8 @@ int main(){
     // if we want to access the elements of an array we have to provide the index no of the elemet.
     // array index start form 0 wich is the first element of an array and goes to size-1
 
+    arr[3] = 48;
+
     cout << arr[0] << endl; // will print the first elemnt in the array
     cout << arr[1] << endl; // will print the second elemnt in the array
     cout << arr[2] << endl; // will print the third elemnt in the array
