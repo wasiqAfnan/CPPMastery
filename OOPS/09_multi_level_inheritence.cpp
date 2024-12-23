@@ -1,8 +1,7 @@
 #include<iostream>
 using namespace std;
 
-class Student
-{
+class Student{
 protected:
     int roll_number;
 
@@ -11,12 +10,12 @@ public:
     void get_roll_number(void);
 };
 
-void Student ::set_roll_number(int r)
+void Student :: set_roll_number(int r)
 {
     roll_number = r;
 }
 
-void Student ::get_roll_number()
+void Student :: get_roll_number()
 {
     cout << "The roll number is " << roll_number << endl;
 }
@@ -32,7 +31,7 @@ public:
     void get_marks(void);
 };
 
-void Exam ::set_marks(float m1, float m2)
+void Exam :: set_marks(float m1, float m2)
 {
     maths = m1;
     physics = m2;
@@ -57,11 +56,10 @@ public:
     }
 };
 
-int main()
-{
-    Result harry;
-    harry.set_roll_number(420);
-    harry.set_marks(94.0, 90.0);
-    harry.display_results();
+int main(){
+    Result wasiq;
+    wasiq.set_roll_number(100);
+    wasiq.set_marks(94.0, 90.0);
+    wasiq.display_results();
     return 0;
 }

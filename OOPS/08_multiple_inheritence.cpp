@@ -47,11 +47,12 @@ class Derived : public Base1, public Base2, public Base3
 
 int main()
 {
-    Derived harry;
-    harry.set_base1int(25);
-    harry.set_base2int(5);
-    harry.set_base3int(15);
-    harry.show();
+    Derived wasiq;
+    // wasiq.base1int = 5 This will give error as base1int is in protected derivation
+    wasiq.set_base1int(25);
+    wasiq.set_base2int(5);
+    wasiq.set_base3int(15);
+    wasiq.show();
     
     return 0;
 }
