@@ -30,7 +30,7 @@ public:
 };
 
 int main() {
-    Rectangle rect(10, 5);
+    Rectangle rect(10, 5); # calling Rectangle function
 
     cout << "Original dimensions:" << endl;
     rect.display();
